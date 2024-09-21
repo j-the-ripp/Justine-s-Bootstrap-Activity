@@ -9,23 +9,32 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #800000; padding: 1rem;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #161D6F; padding: 1rem;">
         <div class="container-fluid">
           <div style="display: inline-block;">
-            <img src="../img/MSU.png" alt="" style="width: 35px; vertical-align: middle;">
-            <p class="h5" style="color: gold; display: inline-block; margin: 0; vertical-align: middle;">CICS - Sta. Cruz Campus</p>
+            <img src="../img/budiiiy.png" alt="" style="width: 35px; vertical-align: middle;">
+            <p class="h5" style="color: white; display: inline-block; margin: 0; vertical-align: middle;">CYBERSECURITY PLAYGROUND</p>
           </div>       
             <div class="d-flex">
                 <input class="form-control me-2" type="text" placeholder="Search">
                 <div class="dropdown">
-                    <button type="button" class="btn" style="background-color: #800000; color: gold;" data-bs-toggle="dropdown">
-                        <i class="bi bi-person-circle"></i>
+                    <button type="button" class="btn" style="background-color: cyan; color: #000000;" data-bs-toggle="dropdown">
+                        <i class="bi bi-list"></i>
                     </button>
                     <ul class="dropdown-menu" style="transform: translateX(-73%);">
                       <li><a class="dropdown-item" href="#">Settings</a></li>
-                      <li><a class="dropdown-item" href="#">Activity Log</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="../index.html">Logout</a></li>
+                      <li><a class="dropdown-item" href="#">Integrations</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Monitoring Log</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Data Overviews</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Resources</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../index.html" style="color: blue;">Logout</a></li>
+                      
+
                     </ul>
                 </div>
             </div>
@@ -33,35 +42,35 @@
     </nav>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-2 p-3" style="background-color: #4B0000;">
+            <div class="col-sm-2 p-3" style="background-color: #0B2F9F;">
                 <nav class="text-white">
-                  <h6 class="text-uppercase" style="color: #FFD700;">Core</h6>
+                  <h6 class="text-uppercase" style="color: #98DED9;">Home</h6>
                   <ul class="nav flex-column mb-3">
                     <li class="nav-item">
                       <a href="#" class="nav-link text-white">
-                        <i class="bi bi-speedometer2"></i> Dashboard
+                        <i class="bi bi-person-circle"></i> Dashboard
                       </a>
                     </li>
                   </ul>
-                  <h6 class="text-uppercase" style="color: #FFD700;">Interface</h6>
+                  <h6 class="text-uppercase" style="color: #98DED9;">Penetration Testing</h6>
                   <ul class="nav flex-column mb-3">
                     <li class="nav-item">
                       <a href="#" class="nav-link text-white d-flex align-items-center justify-content-between" data-bs-toggle="collapse" data-bs-target="#layoutsDropdown">
                         <span class="d-flex align-items-center">
-                          <i class="bi bi-columns me-2"></i>Layouts
+                          <i class="bi bi-gear me-2"></i>OS Types
                         </span>
                         <i class="bi bi-chevron-right"></i>
                       </a>
                       <div class="collapse" id="layoutsDropdown">
                         <ul class="nav flex-column ms-4">
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Layout 1</a>
+                            <a class="nav-link text-white" href="#">Windows</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Layout 2</a>
+                            <a class="nav-link text-white" href="#">Mac OS</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Layout 3</a>
+                            <a class="nav-link text-white" href="#">Kali Linux</a>
                           </li>
                         </ul>
                       </div>
@@ -69,55 +78,80 @@
                     <li class="nav-item">
                       <a href="#" class="nav-link text-white d-flex align-items-center justify-content-between" data-bs-toggle="collapse" data-bs-target="#pagesDropdown">
                         <span class="d-flex align-items-center">
-                          <i class="bi bi-book me-2"></i>Pages
+                          <i class="bi bi-tools me-2"></i>Tools
                         </span>
                         <i class="bi bi-chevron-right"></i>
                       </a>
                       <div class="collapse" id="pagesDropdown">
                         <ul class="nav flex-column ms-4">
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Page 1</a>
+                            <a class="nav-link text-white" href="#">Medusa</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Page 2</a>
+                            <a class="nav-link text-white" href="#">THC-Hydra</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Page 3</a>
+                            <a class="nav-link text-white" href="#">John the Ripper</a>
                           </li>
                         </ul>
                       </div>
                     </li>
                   </ul>
-                  
-                  <h6 class="text-uppercase" style="color: #FFD700;">Addons</h6>
+                  <h6 class="text-uppercase" style="color: #98DED9;">Playground</h6>
+                  <ul class="nav flex-column mb-3">
+                    <li class="nav-item">
+                      <a href="#" class="nav-link text-white d-flex align-items-center justify-content-between" data-bs-toggle="collapse" data-bs-target="#layoutsDropdown">
+                        <span class="d-flex align-items-center">
+                          <i class="bi bi-house me-2"></i>Cybersecurity Lab
+                        </span>
+                        <i class="bi bi-chevron-right"></i>
+                      </a>
+                      <div class="collapse" id="layoutsDropdown">
+                        <ul class="nav flex-column ms-4">
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Datasets</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Intellectual Property</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Rootkits</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                  <h6 class="text-uppercase" style="color: #98DED9;">Skill Development</h6>
                   <ul class="nav flex-column">
                     <li class="nav-item">
                       <a href="#" class="nav-link text-white">
-                        <i class="bi bi-bar-chart"></i> Charts
+                        <i class="bi bi-lightbulb"></i> Metasploitable
                       </a>
                     </li>
                     <li class="nav-item">
                       <a href="#" class="nav-link text-white">
-                        <i class="bi bi-table"></i> Tables
+                        <i class="bi bi-cone"></i> Damn Vulnerable Web App
                       </a>
                     </li>
                   </ul>
+                  
                 </nav>
             </div>
+            
             <div class="col-sm-10 p-4">
-                <h1>Welcome! <span style="color: #4B0000;">Francis Marvin</span></h1>
-                <p class="display-7" style="color: #FFD700;">Dashboard <span class="text-secondary">/ Charts</span></p>
+                <h1>Welcome! <span style="color:#161D6F;">Administrator</span></h1>
+                <p class="display-7" style="color: #161D6F;">Dashboard <span class="text-secondary">/ Analytics</span></p>
                 <form class="bg-light p-4 rounded shadow-sm border border-dark">
-                  <h3>Area Chart Example</h3>
+                  <h3>Analytic Overview</h3>
                     <div class="mb-4">
                         <canvas id="areaChart" width="900" height="300"></canvas>
                     </div>
                     <hr>
-                    <p class="text-muted">Updated yesterday at 11:59 PM</p>
+                    <p class="text-muted">Updated last month at August 15, 2024, 11:59 PM</p>
                 </form>
                 <br>
                 <div class="d-flex justify-content-between align-items-center">
-                    <p>Copyright © College of Information and Computing Sciences 2024</p>
+                    <p>George Bush Center for Intelligence in Langley, Virginia.</p>
                     <span>
                       <a href="#" class="text-decoration-underline">Private Policy</a> |
                       <a href="#" class="text-decoration-underline">Terms & Conditions</a>
@@ -133,16 +167,16 @@
         const areaChart = new Chart(ctx, {
             type: 'line',
             data: {
-                labels: ['Mar 1', 'Mar 3', 'Mar 5', 'Mar 7', 'Mar 9', 'Mar 11', 'Mar 13'],
+                labels: ['Aug 1', 'Aug 5', 'Aug 6', 'Aug 7', 'Aug 8', 'Aug 12', 'Aug 15s'],
                 datasets: [{
-                    label: 'Area Chart Example',
-                    data: [10000, 20000, 30000, 25000, 22000, 18000, 40000],
+                    label: 'Analysis',
+                    data: [100000, 200000, 300000, 50000, 100000, 18000, 700000],
                     fill: true,
-                    borderColor: '#800000',  
-                    backgroundColor: 'rgba(128, 0, 0, 0.2)',  
+                    borderColor: '#161D6F',  
+                    backgroundColor: 'lightblue',  
                     tension: 0.3,
                     pointRadius: 5,
-                    pointBackgroundColor: '#FFD700' 
+                    pointBackgroundColor: '#0B2F9F' 
                 }]
             },
             options: {

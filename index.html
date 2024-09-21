@@ -37,10 +37,10 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #800000; padding: 1rem;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #161D6F; padding: 1rem;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="img/MSU.png" alt="Avatar Logo" style="width:35px; border-radius:50%; margin-right:10px;">
+                <img src="img/budiiiy.png" alt="Avatar Logo" style="width:35px; border-radius:50%; margin-right:10px;">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,16 +48,22 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav" style="margin-right:auto;">
                     <li class="nav-item">
-                        <a class="nav-link h3 text-warning" href="#" style="text-decoration: none; margin-right: 20px;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Home</a>
+                        <a class="nav-link h3 text-info" href="#" style="text-decoration: none; margin-right: 20px;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link h3 text-warning" href="#" style="text-decoration: none; margin-right: 20px;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Contact</a>
+                        <a class="nav-link h3 text-info" href="#" style="text-decoration: none; margin-right: 20px;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Datasets</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link h3 text-warning" href="#" style="text-decoration: none; margin-right: 20px;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">About</a>
+                        <a class="nav-link h3 text-info" href="#" style="text-decoration: none; margin-right: 20px;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link h3 text-warning" href="#" style="text-decoration: none; margin-right: 20px;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Services</a>
+                        <a class="nav-link h3 text-info" href="#" style="text-decoration: none; margin-right: 20px;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h3 text-info" href="#" style="text-decoration: none; margin-right: 20px;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link h3 text-info" href="#" style="text-decoration: none; margin-right: 20px;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Resources</a>
                     </li>
                 </ul>
                 <a class="nav-link text-white h3" href="#" style="margin-left: 20px;" onclick="toggleLoginForm()">Sign In</a>
@@ -67,23 +73,23 @@
     <div class="login-form" id="loginForm">
         <div class="form-container" style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); width: 350px; position: relative;">
             <div class="text-center">
-                <img src="img/MSU.png" alt="Logo" style="width: 50px; border-radius: 50%;">
+                <img src="img/budiiiy.png" alt="Logo" style="width: 50px; border-radius: 50%;">
             </div>
-            <h3 class="text-center" style="color: #800000; margin-top: 10px;">Login</h3>
+            <h3 class="text-center" style="color: #000000; margin-top: 10px;">Login</h3>
             <form>
                 <div class="mb-3">
-                    <label for="username" class="form-label" style="color: #800000;">Username</label>
-                    <input type="text" class="form-control" id="username" style="border-color: #800000; padding-left: 10px;">
+                    <label for="username" class="form-label" style="color: #000000  ;">User Identifier</label>
+                    <input type="text" class="form-control" id="username" style="border-color: #000000; padding-left: 10px;">
                 </div>
                 <div class="mb-3">
-                    <label for="password" class="form-label" style="color: #800000;">Password</label>
-                    <input type="password" class="form-control" id="password" style="border-color: #800000; padding-left: 10px;">
+                    <label for="password" class="form-label" style="color: #000000;">Password</label>
+                    <input type="password" class="form-control" id="password" style="border-color: #000000; padding-left: 10px;">
                 </div>
-                <div class="d-flex align-items-center" style="gap: 20px;">
-                    <button type="submit" class="btn" style="background-color: #800000; padding: 10px 20px; font-size: 1rem; border: none;">
-                        <a href="page/dashboard.html" style="color: #FFD700; text-decoration: none;">Submit</a>
+                <div class="d-flex align-items-center justify-content-between" style="gap: 20px;">
+                    <button type="submit" class="btn" style="background-color: #0B2F9F; padding: 10px 20px; font-size: 1rem; border: none;">
+                        <a href="page/dashboard.html" style="color: #ffffff; text-decoration: none;">Login</a>
                     </button>
-                    <button type="button" class="btn" onclick="toggleLoginForm()" style="background-color: #FFD700; padding: 10px 20px; font-size: 1rem; border: none; color: #800000;">
+                    <button type="button" class="btn" onclick="toggleLoginForm()" style="background-color: #98DED9; padding: 10px 20px; font-size: 1rem; border: none; color: #000000;">
                         Close
                     </button>
                 </div>
@@ -105,16 +111,11 @@
         <div class="row text-center">
             <div class="col-md-4">
                 <br>
-                <h2 class="text-warning">VISION</h2>
-                <p style="text-align: justify;"><i>To become a professional programmer who excels in 
-                    creating impactful, reliable, and efficient software 
-                    solutions that empower businesses and individuals. 
-                    I envision myself as a lifelong learner, contributing 
-                    to the development of cutting-edge technologies and 
-                    being a key player in shaping the future of the tech industry.</i></p>
+                <h2 class="text-primary">VISION</h2>
+                <p style="text-align: justify;"><i>To become a leading resource in cybersecurity education, where users can learn the differences between ethical and unethical hacking, empowering them to make informed decisions, enhance digital security, and contribute to a safer online world.  </i></p>
             </div>
             <div class="col-md-4">
-                <h2 class="text-warning">CAROUSEL</h2>
+                <h2 class="text-primary">Features</h2>
                 <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
@@ -124,16 +125,16 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/Image-1.jpg" class="d-block w-100" alt="Image 1" style="border-radius: 10px;">
+                            <img src="img/hack-like-pro-crack-online-passwords-with-tamper-data-thc-hydra.w654.jpg" class="d-block w-100" alt="Image 1" style="border-radius: 10px;">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/image-2.jpg" class="d-block w-100" alt="Image 2" style="border-radius: 10px;">
+                            <img src="img/Hashcatlogooo.png" class="d-block w-100" alt="Image 2" style="border-radius: 10px;">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Image-3.jpg" class="d-block w-100" alt="Image 3" style="border-radius: 10px;">
+                            <img src="img/johntheripperrr.jpg" class="d-block w-100" alt="Image 3" style="border-radius: 10px;">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Image-4.jpg" class="d-block w-100" alt="Image 4" style="border-radius: 10px;">
+                            <img src="img/thug-inc-ui-medusa-1.jpg" class="d-block w-100" alt="Image 4" style="border-radius: 10px;">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -148,14 +149,8 @@
             </div>
             <div class="col-md-4">
                 <br>
-                <h2 class="text-warning">MISSION</h2>
-                <p style="text-align: justify;"><i>As an Information Systems student, my mission is to continuously 
-                    learn and apply advanced programming concepts to solve real-world 
-                    problems, develop efficient and innovative software solutions, 
-                    and contribute to the technology community. I aim to enhance 
-                    my technical skills through hands-on projects, collaboration, 
-                    and continuous self-improvement, while maintaining a commitment 
-                    to ethical coding practices and a passion for technological innovation.</i></p>
+                <h2 class="text-primary">MISSION</h2>
+                <p style="text-align: justify;"><i>To provide a comprehensive platform that educates users about the responsible use of hacking techniques, fostering a deeper understanding of both ethical and unethical hacking practices. We aim to equip individuals with the knowledge to protect systems from malicious attacks while promoting cybersecurity awareness and ethical hacking principles.</i></p>
             </div>
         </div>
     </div>
@@ -163,41 +158,33 @@
     <div class="container mt-4">
         <div class="row text-center">
             <div class="col-md-4">
-                <h2 class="text-warning">Featured Title</h2>
-                <p style="text-align: justify;"><i>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Animi voluptatem numquam saepe! Quasi dolor 
-                    dolore excepturi ex ab laborum eveniet nihil modi ipsam. Odio, 
-                    cumque! Optio ipsam quas esse praesentium?</i></p>
-                <button type="button" class="btn btn-warning">Read Me..</button>
+                <h2 class="text-primary">What is THC-Hydra?</h2>
+                <p style="text-align: justify;"><i>THC-Hydra (The Hacker's Choice Hydra) is a popular and powerful open-source network login cracker tool used by security professionals and ethical hackers to test and strengthen system security. It supports a wide range of protocols, including HTTP, FTP, SMB, SSH, Telnet, and more, by attempting to perform brute-force or dictionary attacks on login pages or services.</i></p>
+                <button type="button" class="btn btn-primary">Read Me..</button>
             </div>
             <div class="col-md-4">
-                <h2 class="text-warning">Featured Title</h2>
-                <p style="text-align: justify;"><i>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Animi voluptatem numquam saepe! Quasi dolor 
-                    dolore excepturi ex ab laborum eveniet nihil modi ipsam. Odio, 
-                    cumque! Optio ipsam quas esse praesentium?</i></p>
-                <button type="button" class="btn btn-warning">Read Me..</button>
+                <h2 class="text-primary">What is John The Ripper?</h2>
+                <p style="text-align: justify;"><i>John the Ripper is a fast and versatile password cracking tool used primarily for testing password strength and performing brute-force attacks. It is widely used by ethical hackers and security professionals to identify weak passwords in various systems, databases, and environments.</i></p>
+                <button type="button" class="btn btn-primary">Read Me..</button>
             </div>
             <div class="col-md-4">
-                <h2 class="text-warning">Featured Title</h2>
-                <p style="text-align: justify;"><i>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Animi voluptatem numquam saepe! Quasi dolor 
-                    dolore excepturi ex ab laborum eveniet nihil modi ipsam. Odio, 
-                    cumque! Optio ipsam quas esse praesentium?</i></p>
-                <button type="button" class="btn btn-warning">Read Me..</button>
+                <h2 class="text-primary">What is Medusa?</h2>
+                <p style="text-align: justify;"><i>Medusa is a fast, open-source, and parallelized login brute-forcing tool used by security professionals and ethical hackers for penetration testing. Like Hydra, it is designed to test the security of remote authentication services by attempting to break into systems through brute-force or dictionary-based attacks. Medusa supports a wide range of protocols, including SSH, HTTP, FTP, SMB, Telnet, VNC, MySQL, and many others, making it highly versatile for testing various network services.</i></p>
+                <button type="button" class="btn btn-primary">Read Me..</button>
             </div>
         </div>
         <nav class="navbar navbar-expand-sm justify-content-center mt-4">
             <ul class="navbar-nav">
               <li class="nav-item h5"><a class="nav-link" href="#">Home</a></li>
-              <li class="nav-item h5"><a class="nav-link" href="#">Contact</a></li>
+              <li class="nav-item h5"><a class="nav-link" href="#">Resources</a></li>
               <li class="nav-item h5"><a class="nav-link" href="#">About</a></li>
               <li class="nav-item h5"><a class="nav-link" href="#">Services</a></li>
               <li class="nav-item h5"><a class="nav-link" href="#">Developer</a></li>
+              <li class="nav-item h5"><a class="nav-link" href="#">Datasets</a></li>
             </ul>
         </nav>
         <hr>
-        <p class="display-7 text-center">©2024, CICS STA. CRUZ CAMPUS</p>
+        <p class="display-7 text-center">George Bush Center for Intelligence in Langley, Virginia.</p>
     </div>
     <script src="BOOSTRAP/js/bootstrap.bundle.min.js"></script>
 </body>
